@@ -18,7 +18,7 @@ const App = () => {
         <MovieList />
       </Route>
       <Route path='/movies/:movieID'>
-        <Movie />
+        <Movie items={MovieList}/>
       </Route>
     </div>
   );
